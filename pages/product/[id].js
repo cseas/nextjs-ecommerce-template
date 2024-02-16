@@ -1,10 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ProductRating from "../../components/product-rating";
 import ProductSimpleHorizontal from "../../components/product/product-simple-horizontal";
+import { OmniWidget } from "../../src/OmniWidget";
 
 function ProductDetail() {
-  const images = [2, 4, 6, 8, 1];
-
   return (
     <div className="vstack">
       <div className="bg-secondary">
@@ -16,10 +15,10 @@ function ProductDetail() {
                   <a href="#">All Categories</a>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#">Electronics</a>
+                  <a href="#">Chicken</a>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
-                  Product name
+                  3 Kg Super Saver Pack - Chicken Curry Cut (Without Skin)
                 </li>
               </ol>
             </nav>
@@ -32,41 +31,54 @@ function ProductDetail() {
             <div className="col-lg-5">
               <div className="row">
                 <div className="col-12">
-                  <div className="ratio ratio-1x1">
-                    <img
-                      className="rounded"
-                      src={`https://source.unsplash.com/random/300x300?random=${Math.floor(
-                        Math.random() * 50
-                      )}`}
-                      width={300}
-                      height={300}
-                      alt="Product image."
-                    />
-                  </div>
+                  <img
+                    className="rounded"
+                    src="https://staging.nandus.com/my-assets/image/product/4107c8ee474189e66de13e70ea86c22c.jpg"
+                    alt="Product image."
+                  />
                 </div>
               </div>
               <div className="row mt-3 d-none d-lg-block">
                 <div className="col-12 d-flex justify-content-center">
-                  {images.map((e) => {
-                    return (
-                      <div
-                        key={e}
-                        style={{ width: 60 }}
-                        className="me-2 ratio ratio-1x1"
-                      >
-                        <img
-                          className="rounded"
-                          src={`https://source.unsplash.com/random/80x80?random=${Math.floor(
-                            Math.random() * 50
-                          )}`}
-                          width={60}
-                          height={60}
-                          alt="Product image."
-                          key={e}
-                        />
-                      </div>
-                    );
-                  })}
+                  <div style={{ width: 60 }} className="me-2">
+                    <img
+                      className="rounded"
+                      src="https://staging.nandus.com/my-assets/image/product/4107c8ee474189e66de13e70ea86c22c.jpg"
+                      width={60}
+                      height={60}
+                      alt="Product image."
+                    />
+                  </div>
+
+                  <div style={{ width: 60 }} className="me-2">
+                    <img
+                      className="rounded"
+                      src="https://staging.nandus.com/my-assets/image/product/72ae3ab42e44035075ee181bbd75c9fc.jpg"
+                      width={60}
+                      height={60}
+                      alt="Product image."
+                    />
+                  </div>
+
+                  <div style={{ width: 60 }} className="me-2">
+                    <img
+                      className="rounded"
+                      src="https://staging.nandus.com/my-assets/image/product/2974c2e4525e90a0407b8ee88e678d3b.jpg"
+                      width={60}
+                      height={60}
+                      alt="Product image."
+                    />
+                  </div>
+
+                  <div style={{ width: 60 }} className="me-2">
+                    <img
+                      className="rounded"
+                      src="https://staging.nandus.com/my-assets/image/product/4240317a5527f7aa6ae62f5b81c0d94f.jpg"
+                      width={60}
+                      height={60}
+                      alt="Product image."
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -74,7 +86,7 @@ function ProductDetail() {
             <div className="col-lg-7">
               <div className="d-flex">
                 <div className="d-inline h2 mb-0 fw-semibold me-3">
-                  Product name here
+                  3 kg Super Saver Pack - Chicken Curry Cut (Without Skin)
                 </div>
                 <div className="ms-auto">
                   <button
@@ -97,22 +109,26 @@ function ProductDetail() {
                     &nbsp;In Stock
                   </span>
                 </div>
-                <h4 className="fw-semibold">15000Ks</h4>
-                <p className="fw-light">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
+                <h4 className="fw-semibold">MRP &nbsp; ₹ 754.00</h4>
+
+                <p className="fw-light" style={{ marginTop: "8px" }}>
+                  A 3 kg Super Saver pack that is an assortment of medium-sized
+                  bone-in pieces without skin that includes legs, wings, and
+                  breast quarters with the backbone.
                 </p>
-                <dl className="row mb-0">
-                  <dt className="col-sm-3 fw-semibold">Code#</dt>
-                  <dd className="col-sm-9">10001</dd>
-                  <dt className="col-sm-3 fw-semibold">Category</dt>
-                  <dd className="col-sm-9">Electronics</dd>
-                  <dt className="col-sm-3 fw-semibold">Delivery</dt>
-                  <dd className="col-sm-9">Yangon, Mandalay</dd>
+
+                <dl className="row mb-0" style={{ marginTop: "8px" }}>
+                  <dt className="col-sm-3 fw-semibold">Net Weight</dt>
+                  <dd className="col-sm-9">3 kgs</dd>
+                  <dt className="col-sm-3 fw-semibold">Country of Origin</dt>
+                  <dd className="col-sm-9">India</dd>
+                  <dt className="col-sm-3 fw-semibold">Best suited for</dt>
+                  <dd className="col-sm-9">Parties and get togethers</dd>
                 </dl>
-                <hr className="text-muted" />
-                <dl className="row gy-2 mb-4">
+
+                <hr className="text-muted" style={{ margin: "8px 0" }} />
+
+                {/* <dl className="row gy-2 mb-4">
                   <dt className="col-12 fw-semibold">Color</dt>
                   <dd className="col-12">
                     <div className="hstack gap-2">
@@ -212,7 +228,7 @@ function ProductDetail() {
                       </div>
                     </div>
                   </dd>
-                </dl>
+                </dl> */}
 
                 <div className="d-flex">
                   <a
@@ -226,6 +242,8 @@ function ProductDetail() {
                     &nbsp;Add to cart
                   </button>
                 </div>
+
+                <OmniWidget />
               </div>
             </div>
           </div>
