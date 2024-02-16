@@ -15,10 +15,10 @@ function ProductDetail() {
                   <a href="#">All Categories</a>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#">Cosmetics</a>
+                  <a href="#">Chicken</a>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
-                  Eye Lit You So Vivid Eyeliner 04 Yellow Bird
+                  3 Kg Super Saver Pack - Chicken Curry Cut (Without Skin)
                 </li>
               </ol>
             </nav>
@@ -33,7 +33,7 @@ function ProductDetail() {
                 <div className="col-12">
                   <img
                     className="rounded"
-                    src="https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-04-yellow-bird-27938825961555.jpg?v=1619153469"
+                    src="https://staging.nandus.com/my-assets/image/product/4107c8ee474189e66de13e70ea86c22c.jpg"
                     alt="Product image."
                   />
                 </div>
@@ -43,7 +43,7 @@ function ProductDetail() {
                   <div style={{ width: 60 }} className="me-2">
                     <img
                       className="rounded"
-                      src="https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-04-yellow-bird-27938825961555.jpg?v=1619153469"
+                      src="https://staging.nandus.com/my-assets/image/product/4107c8ee474189e66de13e70ea86c22c.jpg"
                       width={60}
                       height={60}
                       alt="Product image."
@@ -53,7 +53,7 @@ function ProductDetail() {
                   <div style={{ width: 60 }} className="me-2">
                     <img
                       className="rounded"
-                      src="https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-04-yellow-bird-27938826158163.jpg?v=1645794822"
+                      src="https://staging.nandus.com/my-assets/image/product/72ae3ab42e44035075ee181bbd75c9fc.jpg"
                       width={60}
                       height={60}
                       alt="Product image."
@@ -63,7 +63,7 @@ function ProductDetail() {
                   <div style={{ width: 60 }} className="me-2">
                     <img
                       className="rounded"
-                      src="https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-04-yellow-bird-pastel-yellow-27939389079635.jpg?v=1619153474"
+                      src="https://staging.nandus.com/my-assets/image/product/2974c2e4525e90a0407b8ee88e678d3b.jpg"
                       width={60}
                       height={60}
                       alt="Product image."
@@ -73,7 +73,7 @@ function ProductDetail() {
                   <div style={{ width: 60 }} className="me-2">
                     <img
                       className="rounded"
-                      src="https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-04-yellow-bird-27938826649683.jpg?v=1619153476"
+                      src="https://staging.nandus.com/my-assets/image/product/4240317a5527f7aa6ae62f5b81c0d94f.jpg"
                       width={60}
                       height={60}
                       alt="Product image."
@@ -86,7 +86,7 @@ function ProductDetail() {
             <div className="col-lg-7">
               <div className="d-flex">
                 <div className="d-inline h2 mb-0 fw-semibold me-3">
-                  Eye Lit You So Vivid Eyeliner 04 Yellow Bird
+                  3 kg Super Saver Pack - Chicken Curry Cut (Without Skin)
                 </div>
                 <div className="ms-auto">
                   <button
@@ -109,32 +109,26 @@ function ProductDetail() {
                     &nbsp;In Stock
                   </span>
                 </div>
-                <h4 className="fw-semibold">MRP &nbsp; ₹ 349.00</h4>
+                <h4 className="fw-semibold">MRP &nbsp; ₹ 754.00</h4>
 
                 <p className="fw-light" style={{ marginTop: "8px" }}>
-                  Vivid eyeliners that spark outright creativity... Add a bright
-                  pop of colour to your makeup with this staggering range of
-                  coloured SUGAR Eye Lit You So! Vivid Eyeliners. These liquid
-                  eyeliners are available in six electrifying highly-pigmented
-                  matte finish shades, which are long-lasting, smudgeproof and
-                  incredibly opaque. The formula is packed with intense
-                  concentrated pigments, which offer a staying power of up to
-                  8-hrs, dries quickly and won’t fade or transfer until you say
-                  when.
+                  A 3 kg Super Saver pack that is an assortment of medium-sized
+                  bone-in pieces without skin that includes legs, wings, and
+                  breast quarters with the backbone.
                 </p>
 
                 <dl className="row mb-0" style={{ marginTop: "8px" }}>
-                  <dt className="col-sm-3 fw-semibold">Net Volume</dt>
-                  <dd className="col-sm-9">1.7ml</dd>
+                  <dt className="col-sm-3 fw-semibold">Net Weight</dt>
+                  <dd className="col-sm-9">3 kgs</dd>
                   <dt className="col-sm-3 fw-semibold">Country of Origin</dt>
-                  <dd className="col-sm-9">PRC</dd>
-                  <dt className="col-sm-3 fw-semibold">Company Name</dt>
-                  <dd className="col-sm-9">SUGAR Cosmetics LLC</dd>
+                  <dd className="col-sm-9">India</dd>
+                  <dt className="col-sm-3 fw-semibold">Best suited for</dt>
+                  <dd className="col-sm-9">Parties and get togethers</dd>
                 </dl>
 
                 <hr className="text-muted" style={{ margin: "8px 0" }} />
 
-                <dl className="row gy-2 mb-4">
+                {/* <dl className="row gy-2 mb-4">
                   <dt className="col-12 fw-semibold">Color</dt>
                   <dd className="col-12">
                     <div className="hstack gap-2">
@@ -234,7 +228,7 @@ function ProductDetail() {
                       </div>
                     </div>
                   </dd>
-                </dl>
+                </dl> */}
 
                 <div className="d-flex">
                   <a
