@@ -17,8 +17,8 @@ function Header({ simple, hideAuth }) {
                 WestSide
               </span> */}
               <img
-                src="https://staging.nandus.com/my-assets/image/blogo/a4f9a2261cc7c30167299d1229bc0f24.jpg"
-                alt="Nandu's"
+                src="https://1000logos.net/wp-content/uploads/2021/05/SUGAR-Cosmetics-logo.png"
+                alt="Sugar"
                 width="126px"
                 style={{ marginRight: "8px" }}
               />
