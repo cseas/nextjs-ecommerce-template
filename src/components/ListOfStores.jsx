@@ -1,4 +1,6 @@
 import {
+  Alert,
+  AlertIcon,
   Button,
   Divider,
   Heading,
@@ -84,6 +86,12 @@ export function ListOfStores({ location }) {
           <Text color="gray.600" ml={4} mb={6}>
             Found 5 stores near {location}
           </Text>
+
+          <Alert status="success" py={4} mb={7}>
+            <AlertIcon />
+            Get Rs. 100 off on Pick Up from Store 🎉
+          </Alert>
+
           <Store heading="Forum Mall" address="The Forum 17, Ground Floor" />
           <Store heading="HSR Layout" address="NFS HSR, NO-427, 27TH MAIN" />
           <Store
